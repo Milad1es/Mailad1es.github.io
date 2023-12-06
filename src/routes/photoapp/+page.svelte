@@ -22,7 +22,7 @@ font-size: 30px;
 h2{color: crimson;
 }
 a{font-size: 15px;
-color: aliceblue;
+color: rgb(0, 0, 0);
 }
 
 </style>

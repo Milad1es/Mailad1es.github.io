@@ -20,17 +20,17 @@
 <style> 
 h1{
   font-size: 40px;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
 }
 
 h2{
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-size: 15px;
 }
 h3{color: rgb(255, 174, 0);}
 
 
-h4{color: rgb(255, 255, 255);}
+h4{color: rgb(0, 0, 0);}
 
 h5{color: rgb(255, 183, 0);
 font-size: 20px;
