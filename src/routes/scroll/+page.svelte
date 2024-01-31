@@ -6,9 +6,9 @@
   
     // Define messages for scrollytelling
     const messages = [
-      'Keep scrolling...',
-      'More scrolling...',
-      'Almost there...',
+      'lets go...',
+      'go...',
+      'yes...',
       'You did it!',
       'You are done!'
     ];
@@ -36,25 +36,21 @@
   <svelte:window bind:scrollY={y} on:scroll={handleScroll} />
   
   <main>
-    <!-- Parallax container for layers -->
-    <div class="container">
-      {#each layers as layer}
-        <img
-          style="transform: translate(0, {y < 2 ? y * layer : -y * layer / (layers.length - 1)}px)"
-          src={`https://www.devsamples.com/parallax-layer${layer}.png`}
-          alt={`parallax layer ${layer}`}
-        >
-      {/each}
-    </div>
-  
-    <!-- Scrollytelling text section -->
+ 
+  <div>
+<img src="https://i.pinimg.com/736x/3c/71/0e/3c710eb29f3e5a0f65207d8252ff4bb7.jpg" alt="bil" style="width:1520px;">
+
+
+  </div>
+ 
+  <!-- Scrollytelling text section -->
     <div class="text">
         {#if fader && currentMessageIndex > 0}
           <!-- Animate text with fly-in and fade-out transitions -->
             <div class="story" in:fly={{ y: 200, duration: 2000 }} out:fade>
                 <p>You have scrolled {y} pixels</p>
                 <p>{currentMessage}</p>
-                <img src="https://www.onlygfx.com/wp-content/uploads/2021/02/6-pixel-heart-1.png" alt="heart"> 
+                <img src="src/routes/scroll/milad-bil.png.png" alt="heart"> 
             </div>
           {:else if currentMessageIndex === 0 }
           <p>You have scrolled {y} pixels</p>
@@ -106,7 +102,10 @@
       color: white;
 
     }
-  
+    .jade {
+      text-align: center;
+      width: 180px;
+    }  
 
   </style>
   
