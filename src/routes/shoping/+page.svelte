@@ -49,7 +49,7 @@
     <div class="ram">
         
         <h1 class="aaa">classic cars</h1>
-        <a href="https://classiccars.com/" claas="bbb">Länktexten här</a>
+        <a href="https://classiccars.com/" claas="bbb">Länktexten här</a>    
     </div>
 
 
@@ -74,4 +74,5 @@
     </script>
 
 </body>
+
 </html>
