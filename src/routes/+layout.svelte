@@ -12,6 +12,8 @@
   <a href="/photoapp">potoapp</a>
   <a href="/chat">chat</a>
   <a href="/scroll">scroll</a>
+  <a href="/miniprojekt2">Miniprojekt2</a>
+  <a href="/shoping">shoping</a>
   <a
     target="_blank" rel="noreferrer"
     href="https://github.com/lisaviktorsson/lisaviktorsson.github.com"
