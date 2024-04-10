@@ -14,6 +14,7 @@
   <a href="/scroll">scroll</a>
   <a href="/miniprojekt2">Miniprojekt2</a>
   <a href="/shoping">shoping</a>
+  <a href="/search">search</a>
   <a
     target="_blank" rel="noreferrer"
     href="https://github.com/lisaviktorsson/lisaviktorsson.github.com"
