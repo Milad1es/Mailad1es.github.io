@@ -1,0 +1,1 @@
+import{w as t}from"./index-ea030a08.js";const s=(window==null?void 0:window.localStorage.getItem("story_id"))??"1",r=t(s);r.subscribe(o=>{window==null||window.localStorage.setItem("story_id",o),console.log(o)});export{r as s};
